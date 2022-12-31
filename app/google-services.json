@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "261507401801",
+    "project_id": "go4it-a2372",
+    "storage_bucket": "go4it-a2372.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261507401801:android:45c41f8b8a879a77889798",
+        "android_client_info": {
+          "package_name": "com.example.go4it"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261507401801-k2mgcio35s2fe6g69rill2o4su9knjc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1qOAdqffU5hPhMQHc99Hlh1LmAgbR8K4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261507401801-k2mgcio35s2fe6g69rill2o4su9knjc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

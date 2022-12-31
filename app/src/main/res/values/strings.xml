@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Go4It</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="get_started">Get Started</string>
+    <string name="sign_in">Sign in</string>
+    <string name="or">or</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="create_account">Create Account</string>
+    <string name="account_details">Account Details</string>
+    <string name="update_details">Edit Details</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="fName">First Name</string>
+    <string name="lName">Last Name</string>
+    <string name="pNumber">Phone Number</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="channel_description">Here is finger licking healthy food. Just Go4It.</string>
+    <string name="channel_id">Go4ItNotificationChannel</string>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string name="order_preference_title">Preference</string>
+    <string name="order_meals_title">Meals</string>
+    <string name="order_address_title">Delivery Address</string>
+    <string name="order_instructions_title">Delivery Instructions</string>
+    <string name="order_summary_title">Order Summary</string>
+    <string name="order_orderHistory_title">Order History</string>
+    <string name="order_editProfile_title">Edit Profile</string>
+    <string name="order_profile_title">Profile</string>
+    <string name="order_menu_title">Menu</string>
+    <string name="order_orderDetails_title">Order Details</string>
+    <string name="order_editOrderDetails_title">Edit Order Details</string>
+
+    <string name="order_summary">Review Order details</string>
+    <string name="quantity">Quantity</string>
+    <string name="prefer">Preference</string>
+    <string name="total_price">Total: $60</string>
+    <string name="designed">Designed by Rajwinder</string>
+    <string name="select_meals_per_week">Select Meals per Week</string>
+    <string name="_4">4</string>
+    <string name="_6">6</string>
+    <string name="_8">8</string>
+    <string name="_10">10</string>
+    <string name="_12">12</string>
+    <string name="_14">14</string>
+    <string name="nextBtn">Next</string>
+    <string name="_0">$0</string>
+    <string name="order_total">Order Total</string>
+    <string name="delivery_instructions">Delivery Instructions</string>
+    <string name="front_door">Front Door</string>
+    <string name="chef">Chef</string>
+    <string name="no_order_found">No order Found</string>
+    <string name="no_menu">No menu</string>
+    <string name="no_order">No order, Place an order</string>
+    <string name="orders_title">Placed Orders</string>
+
+    <string-array name="array_preference">
+        <item>Chef Choice</item>
+        <item>Calorie Control</item>
+        <item>Vegan</item>
+        <item>Protein</item>
+        <item>Meat Love</item>
+    </string-array>
+
+    <string-array name="array_meals_per_week">
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+    </string-array>
+
+</resources>

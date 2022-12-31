@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/nav_account"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/nav_order"
+        android:title="Orders" />
+    <item
+        android:id="@+id/nav_order_history"
+        android:title="Order History" />
+    <item
+        android:id="@+id/nav_menu"
+        android:title="Menu" />
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Sign out"
+        />
+
+</menu>

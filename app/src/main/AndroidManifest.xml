@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.go4it">
+    <!-- Permissions for internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:name=".Payment"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Go4It"
+        tools:replace="android:allowBackup"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:exported="true" />
+        <activity
+            android:name=".SignIn"
+            android:exported="true" />
+        <activity
+            android:name=".Preferences"
+            android:exported="true"
+            android:label="@string/order_preference_title" />
+        <activity
+            android:name=".Meals"
+            android:exported="true"
+            android:label="@string/order_meals_title" />
+        <activity
+            android:name=".Address"
+            android:exported="true"
+            android:label="@string/order_address_title" />
+        <activity
+            android:name=".DeliveryInstructions"
+            android:exported="true"
+            android:label="@string/order_instructions_title" />
+        <activity
+            android:name=".OrderSummary"
+            android:label="@string/order_summary_title" />
+        <activity
+            android:name=".OrderList"
+            android:exported="true"
+            android:label="@string/orders_title"/>
+        <activity
+            android:name=".OrderHistory"
+            android:exported="true"
+            android:label="@string/order_orderHistory_title" />
+        <activity
+            android:name=".EditProfile"
+            android:exported="true"
+            android:label="@string/order_editProfile_title" />
+        <activity
+            android:name=".Profile"
+            android:exported="true"
+            android:label="@string/order_profile_title" />
+        <activity
+            android:name=".Menu"
+            android:exported="true"
+            android:label="@string/order_menu_title" />
+        <activity
+            android:name=".Payment"
+            android:exported="true" />
+        <activity
+            android:name=".OrderDetails"
+            android:exported="true"
+            android:label="@string/order_orderDetails_title" />
+        <activity
+            android:name=".EditOrderDetails"
+            android:exported="true"
+            android:label="@string/order_editOrderDetails_title" />
+
+        <receiver
+            android:name=".AlarmReceiver"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>
